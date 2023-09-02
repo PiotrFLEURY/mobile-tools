@@ -50,6 +50,17 @@ header {
     color: rgb(108, 108, 108);
 }
 
+@media screen and (max-width: 800px) {
+    .header-title {
+        font-size: medium;
+    }
+
+    .header-message {
+        font-size: 24px;
+        margin: 16px;
+    }
+  }
+
 /* Style the main content */
 main {
     flex: 1;
