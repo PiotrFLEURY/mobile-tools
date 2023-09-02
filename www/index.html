@@ -8,26 +8,36 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- js import -->
     <script src="js/script.js" defer></script>
+    <script src="components/dart-logo.js" defer></script>
+    <script src="components/flutter-logo.js" defer></script>
+    <script src="components/github-logo.js" defer></script>
+    <script src="components/ext-links.js" defer></script>
     <title>mobile-tools.dev</title>
 </head>
 
 <body>
     <header>
-        mobile-tools.dev is a collection of tools for mobile developers.
+        <span class="header-title">
+            Mobile Tools
+        </span>
+        <span class="header-message">
+            Extend your mobile developments
+        </span> 
+            
     </header>
     <main>
         <nav>
             <ul>
                 <li class="navitem selected" id="navflutterprojects">
                     <a href="#flutterprojects" onmouseenter="showSection('flutterprojects')">
-                        <img src="logos/logo_flutter_1080px_clr.svg" alt="Flutter logo" class="logo" />
-                        Flutter project
+                        <flutter-logo></flutter-logo>
+                        Flutter projects
                     </a>
                 </li>
                 <li class="navitem" id="navdartprojects">
                     <a href="#dartprojects" onmouseenter="showSection('dartprojects')">
-                        <img src="logos/logo_dart_192px.svg" alt="Dart logo" class="logo" />
-                        Dartproject
+                        <dart-logo></dart-logo>
+                        Dart projects
                     </a>
                 </li>
             </ul>
@@ -37,35 +47,32 @@
             <ul>
                 <li>
                     <h1>
-                        <img src="logos/logo_flutter_1080px_clr.svg" alt="Flutter logo" class="logo" />
-                        camcode
+                        📷 camcode
                     </h1>
                     <article>
                         camcode is a Flutter Web plugin to scan barcodes and QR codes using javascript library
                     </article>
-                    <a href="https://pub.dev/packages/camcode">https://pub.dev/packages/camcode</a>
+                    <ext-links name="camcode"></ext-links>
                 </li>
                 <li>
                     <h1>
-                        <img src="logos/logo_flutter_1080px_clr.svg" alt="Flutter logo" class="logo" />
-                        every_test
+                        🧪 every_test
                     </h1>
                     <article>
                         every_test is a Flutter test library to run a single test multiple times tests using different
                         parameters.
                     </article>
-                    <a href="https://pub.dev/packages/every_test">https://pub.dev/packages/every_test</a>
+                    <ext-links name="every_test"></ext-links>
                 </li>
                 <li>
                     <h1>
-                        <img src="logos/logo_flutter_1080px_clr.svg" alt="Flutter logo" class="logo" />
-                        look
+                        🎨 look
                     </h1>
                     <article>
                         look is a Flutter dev tool to run a single widget in hot reload
                         mode.
                     </article>
-                    <a href="https://pub.dev/packages/look">https://pub.dev/packages/look</a>
+                    <ext-links name="look"></ext-links>
                 </li>
             </ul>
         </section>
@@ -73,7 +80,7 @@
             <ul>
                 <li>
                     <h1>
-                        <img src="logos/logo_dart_192px.svg" alt="Dart logo" class="logo" />nenuphar_cli
+                        🐸 nenuphar_cli
                     </h1>
                     <img src="https://raw.githubusercontent.com/PiotrFLEURY/nenuphar_cli/main/docs/pictures/logo.png"
                         alt="nenuphar_cli logo" class="logo-card" />
@@ -81,7 +88,7 @@
                         nenuphar_cli is a command line tool to generate a Swagger for your
                         Dart Frog server.
                     </article>
-                    <a href="https://pub.dev/packages/nenuphar_cli">https://pub.dev/packages/nenuphar_cli</a>
+                    <ext-links name="nenuphar_cli" hasDoc="true"></ext-links>
                 </li>
             </ul>
         </section>
