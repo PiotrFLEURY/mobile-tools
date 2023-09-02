@@ -1,7 +1,7 @@
 /* Import Noto_Sans font */
 @font-face {
     font-family: 'Noto_Sans';
-    src: url("../fonts/NotoSans-Regular.ttf");
+    src: url("../fonts/Noto_Sans/NotoSans-Regular.ttf");
     font-weight: normal;
 }
 
@@ -107,6 +107,27 @@ nav li {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+@keyframes fade_in_show {
+    0% {
+         opacity: 0;
+         transform: scale(0)
+    }
+
+    100% {
+         opacity: 1;
+         transform: scale(1)
+    }
+}
+
+section {
+    display: block;
+    animation: fade_in_show 0.8s
+}
+
+section.hidden {
+    display: none;
+}
+
 section li {
     margin: 10px;
     padding: 20px;
@@ -118,6 +139,7 @@ section li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 li a {
