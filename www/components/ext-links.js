@@ -7,6 +7,18 @@ class ExtLinks extends HTMLElement {
         // get name attribute
         const name = this.getAttribute('name');
 
+        // get hasPub attribute
+        const hasPub = this.getAttribute('hasPub');
+
+        var pubHTML = '';
+        if(hasPub === 'true') {
+            pubHTML = `
+                <a href="https://pub.dev/packages/${name}" class="ext-link" target="_blank" >
+                    <dart-logo></dart-logo>
+                </a>
+            `;
+        }
+
         // get hasDoc attribute
         const hasDoc = this.getAttribute('hasDoc');
 
@@ -21,9 +33,7 @@ class ExtLinks extends HTMLElement {
 
         this.innerHTML = `
             <span class="ext-links">
-                <a href="https://pub.dev/packages/${name}" class="ext-link" target="_blank" >
-                    <dart-logo></dart-logo>
-                </a>
+                ${pubHTML}
                 <a href="https://github.com/PiotrFLEURY/${name}" class="ext-link" target="_blank" >
                     <github-logo></github-logo>
                 </a>
