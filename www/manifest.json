@@ -1,0 +1,66 @@
+{
+    "short_name": "Mobile Tools",
+    "name": "Mobile Tools: Extend your mobile developments",
+    "icons": [
+      {
+        "src": "/images/icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "id": "/",
+    "start_url": "/",
+    "background_color": "#f2f2f2",
+    "display": "fullscreen",
+    "scope": "/",
+    "theme_color": "#6666E8",
+    "shortcuts": [
+      {
+        "name": "Flutter projects",
+        "short_name": "Flutter",
+        "description": "Explore Flutter projects",
+        "url": "/#flutterprojects",
+        "icons": [{ "src": "logos/logo_flutter_1080px_clr.svg", "sizes": "192x192" }]
+      },
+      {
+        "name": "Dart projects",
+        "short_name": "Dart",
+        "description": "Explore Dart projects",
+        "url": "/#dartprojects",
+        "icons": [{ "src": "logos/logo_dart_192px.svg", "sizes": "192x192" }]
+      },
+      {
+        "name": "Other projects",
+        "short_name": "Other",
+        "description": "Explore Other projects",
+        "url": "/#otherprojects",
+        "icons": [{ "src": "logos/github-mark.svg", "sizes": "192x192" }]
+      }
+    ],
+    "description": "Piotr Fleury's mobile tools projects",
+    "screenshots": [
+      {
+        "src": "/images/capture1.png",
+        "type": "image/png",
+        "sizes": "389x847",
+        "form_factor": "narrow"
+      },
+      {
+        "src": "/images/capture2.png",
+        "type": "image/png",
+        "sizes": "389x847",
+        "form_factor": "narrow"
+      },
+      {
+        "src": "/images/capture3.png",
+        "type": "image/png",
+        "sizes": "389x847",
+        "form_factor": "narrow"
+      }
+    ]
+  }
