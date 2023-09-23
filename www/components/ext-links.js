@@ -31,6 +31,16 @@ class ExtLinks extends HTMLElement {
             `;
         }
 
+        // get url attribute
+        const url = this.getAttribute('url');
+
+        var urlHTML = '';
+        if(url !== null) {
+            urlHTML = `
+                <a href="${url}" class="ext-link" target="_blank" >🌐</a>
+            `;
+        }
+
         this.innerHTML = `
             <span class="ext-links">
                 ${pubHTML}
@@ -38,6 +48,7 @@ class ExtLinks extends HTMLElement {
                     <github-logo></github-logo>
                 </a>
                 ${docHTML}
+                ${urlHTML}
             </span>
         `;
         

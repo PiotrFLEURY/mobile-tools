@@ -213,4 +213,5 @@ li h1 {
     margin: 4px;
     font-size: large;
     align-content: center;
+    min-width: 4em;
 }

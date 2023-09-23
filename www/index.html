@@ -13,6 +13,7 @@
     <script src="components/dart-logo.js" defer></script>
     <script src="components/flutter-logo.js" defer></script>
     <script src="components/github-logo.js" defer></script>
+    <script src="components/android-logo.js" defer></script>
     <script src="components/ext-links.js" defer></script>
     <title>Mobile Tools - Extend your mobile developments</title>
 </head>
@@ -39,6 +40,18 @@
                     <a href="#dartprojects" onmouseenter="showSection('dartprojects')">
                         <dart-logo></dart-logo>
                         Dart projects
+                    </a>
+                </li>
+                <li class="navitem" id="navandroidprojects">
+                    <a href="#androidprojects" onmouseenter="showSection('androidprojects')">
+                        <android-logo></android-logo>
+                        Android projects
+                    </a>
+                </li>
+                <li class="navitem" id="navfunprojects">
+                    <a href="#funprojects" onmouseenter="showSection('funprojects')">
+                        😜
+                        Fun projects
                     </a>
                 </li>
                 <li class="navitem" id="navotherprojects">
@@ -81,6 +94,33 @@
                     </article>
                     <ext-links name="look" hasPub="true"></ext-links>
                 </li>
+                <li>
+                    <h1>
+                        Custom comparator
+                    </h1>
+                    <article>
+                        A home made Flutter Golden comparator including tolerance parameter.
+                    </article>
+                    <ext-links name="custom_comparator"></ext-links>
+                </li>
+                <li>
+                    <h1>
+                        Pipo
+                    </h1>
+                    <article>
+                        Clean code and effective Dart explorations.
+                    </article>
+                    <ext-links name="pipo"></ext-links>
+                </li>
+                <li>
+                    <h1>
+                        Flutter watch
+                    </h1>
+                    <article>
+                        Apple watch and Flutter communication sample.
+                    </article>
+                    <ext-links name="FlutterWatch"></ext-links>
+                </li>
             </ul>
         </section>
         <section id="dartprojects" class="hidden">
@@ -89,13 +129,115 @@
                     <h1>
                         🐸 nenuphar_cli
                     </h1>
-                    <img src="https://raw.githubusercontent.com/PiotrFLEURY/nenuphar_cli/main/docs/pictures/logo.png"
+                    <img src="images/nenuphar.png"
                         alt="nenuphar_cli logo" class="logo-card" />
                     <article>
                         nenuphar_cli is a command line tool to generate a Swagger for your
                         Dart Frog server.
                     </article>
                     <ext-links name="nenuphar_cli" hasPub="true" hasDoc="true"></ext-links>
+                </li>
+            </ul>
+        </section>
+        <section id="androidprojects" class="hidden">
+            <ul>
+                <li>
+                    <h1>
+                        DisMoiToutSms
+                    </h1>
+                    <article>
+                        An SMS handfree communication app.
+                        My most popular Android native app.
+                        Was created before Google Assistant.
+                    </article>
+                    <ext-links name="DisMoiToutSms" ></ext-links>
+                </li>
+                <li>
+                    <h1>
+                        NoSnooze
+                    </h1>
+                    <article>
+                        An alarm app with no snooze button.
+                        Ask you to solve complex problems to stop the alarm.
+                    </article>
+                    <ext-links name="NoSnooze" ></ext-links>
+                </li>
+                <li>
+                    <h1>
+                        YouCompose
+                    </h1>
+                    <article>
+                        First Jetpack compose app.
+                        A youtube client.
+                    </article>
+                    <ext-links name="YouCompose" ></ext-links>
+                </li>
+                <li>
+                    <h1>
+                        ComposeIt
+                    </h1>
+                    <article>
+                        Complete used case in Jetpacl Compose.
+                        From UI to API call.
+                    </article>
+                    <ext-links name="ComposeIt" ></ext-links>
+                </li>
+            </ul>
+        </section>
+        <section id="funprojects" class="hidden">
+            <ul>
+                <li>
+                    <h1>
+                        <img src="logos/wallofquotes.svg" alt="WallOfQuotes logo" class="logo" /> wallofquotes
+                    </h1>
+                    <article>
+                        The wallofquotes is a collection of fun quotes out of context.
+                    </article>
+                    <ext-links name="wallofquotes" url="https://wallofquotes-e0192.web.app/"></ext-links>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h1>
+                        Mines
+                    </h1>
+                    <article>
+                        A small mines game made with Flutter
+                    </article>
+                    <ext-links name="mines" url="https://mines-b6f17.web.app/"></ext-links>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h1>
+                        Rive waves
+                    </h1>
+                    <article>
+                        Demo of Rive animations
+                    </article>
+                    <ext-links name="rive_waves" ></ext-links>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h1>
+                        Tetris
+                    </h1>
+                    <article>
+                        A tetris game completelly made with JS by Github Copilot
+                    </article>
+                    <ext-links name="tetris" url="https://piotrfleury.github.io/tetris/"></ext-links>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h1>
+                        Tusmo Flutter
+                    </h1>
+                    <article>
+                        A tusmo game made with Flutter
+                    </article>
+                    <ext-links name="tusmo_flutter" url="https://piotrfleury.github.io/tusmo_flutter/"></ext-links>
                 </li>
             </ul>
         </section>
@@ -118,6 +260,15 @@
                         passkey_demo is an exploration of the Passkey principle which is aimed to replace passwords in the future.
                     </article>
                     <ext-links name="passkey_demo"></ext-links>
+                </li>
+                <li>
+                    <h1>
+                        micro elements
+                    </h1>
+                    <article>
+                        an exploration of how the custom HTML tags are made.
+                    </article>
+                    <ext-links name="micro-elements"></ext-links>
                 </li>
             </ul>
         </section>
